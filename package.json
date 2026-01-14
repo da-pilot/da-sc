@@ -1,0 +1,21 @@
+{
+  "name": "da-sc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy:prod": "wrangler deploy --env=\"\"",
+    "deploy:stage": "wrangler deploy --env stage",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.40.0"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "hast-util-from-html-isomorphic": "^2.0.0",
+    "hast-util-select": "^6.0.4"
+  }
+}
